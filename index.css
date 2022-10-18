@@ -1,0 +1,369 @@
+
+html {
+  width: 99%;
+  height: 99%;
+}
+
+body {
+  background-image: url(code.png);
+  background-color: rgb(199, 197, 197);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  background-color: #FFF;
+  margin: 0;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border: solid 3px rgb(6, 6, 6);
+  border-radius: 0.9em;
+  font-family: "Source Sans Pro", sans-serif;
+  box-shadow: 7px 7px 15px black;
+}
+form .svgContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1em;
+  border-radius: 50%;
+  background: none;
+  border: solid 2.5px #3A5E77;
+  overflow: hidden;
+  pointer-events: none;
+}
+form .svgContainer div {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+form .svgContainer .mySVG {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.title {
+  inset: 1px;
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 12px;
+}
+h2 {
+  font-family: monospace;
+  float: left;
+  position: relative;
+  font-size: 40px;
+}
+h2 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: white;
+  border-left: 1px solid white;
+  animation: maquina 5s alternate steps(17);
+}
+@keyframes maquina {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  display: none;
+  width: 150px;
+  background-color: #FFF;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bolder;
+  color: #FFF;
+  background-color: black;
+  border-radius: 15px;
+  border: 1px solid white;
+  box-shadow: 5px 5px 10px black;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(75, 75, 75);
+}
+
+.whatsapp {
+  position: absolute;
+  top: 79%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+.wsp {
+  position: absolute;
+  top: 630px;
+  left: 65px;
+  width: 70px;
+}
+
+.nav {
+  background-color: rgb(17, 144, 202);
+  height: 99%;
+  width: 240px;
+}
+
+.yo {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.icon {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  font-size: 35px;
+  top: 300px;
+  left: 60px;
+  background-color: rgb(129, 173, 177);
+  padding: 15px;
+  border-radius: 30px;
+}
+.icon:hover {
+  border: 1px solid black ;
+}
+.pro {
+  top: 400px;
+  margin-left: -30px;
+}
+
+.background {
+  position: absolute;
+  top: 35px;
+  margin-left: 275px;
+  background-color: rgb(57, 91, 99);
+  border-radius: 20px;
+  width: 83.5%;
+  height: 91%;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  text-align: justify;
+  line-height: 40px;
+}
+
+.card {
+  position: absolute;
+  top: 35px;
+  margin-left: 275px;
+  border-radius: 20px;
+  background-color: rgb(57, 91, 99);
+  width: 500px;
+  height: 600px;
+  text-align: center;
+}
+.img {
+  margin: 10px;
+  width: 450px;
+  height: 500px;
+  border-radius: 20px;
+}
+.nombre-card {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.segunda {
+  margin-left: 800px;
+}
+.tercera {
+  margin-left: 1330px;
+}
+
+.github {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 500px;
+  left: 10px;
+}
+.linkedin {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 500px;
+  left: 120px;
+  border-radius: 22px;
+}
+.proyectos {
+  position: absolute;
+  top: 650px;
+  margin-left: 275px;
+  border-radius: 20px;
+  background-color: rgb(57, 91, 99);
+  width: 500px;
+  padding: 10px;
+  text-align: center;
+  color: #FFF;
+  font-size: 25px;
+}
+
+@media (max-width: 1750px) {
+  .tercera {
+    margin-left: 275px;
+    top: 650px;
+  }
+  .background {
+    width: 77%;
+    height: auto;
+  }
+  .proyectos {
+    margin-left: 800px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .segunda {
+    margin-left: 275px;
+    top: 1270px;
+  }
+  .background {
+    width: 66%;
+    margin-left: 245px;
+  }
+  .proyectos {
+    margin-left: 275px;
+    top: 1900px;
+  }
+}
+@media (max-width: 800px) {
+  .github {
+    width: 70px;
+    top: 5px;
+    left: 310px;
+  }
+  .linkedin {
+    width: 70px;
+    top: 78px;
+    left: 310px;
+  }
+  .wsp {
+    top: 25px;
+    left: 390px;
+  }
+  .background {
+    top: 160px;
+    margin-left: 10px;
+    width: 92%;
+  }
+  .nav {
+    height: 150px;
+    width: 100%;
+  }
+  .yo {
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+  }
+  .icon {
+    top: 10px;
+    left: 180px;
+    font-size: 25px;
+  }
+  .pro {
+    top: 80px;
+    margin-left: -20px;
+  }
+  .card {
+    width: 350px;
+    height: 450px;
+    top: 170px;
+    margin-left: 50px;
+  }
+  .img {
+    width: 300px;
+    height: 350px;
+  }
+  .tercera {
+    top: 640px;
+  }
+  .segunda {
+    top: 1110px;
+  }
+  .proyectos {
+    margin-left: 40px;
+    width: 350px;
+    top: 1600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .github {
+    width: 50px;
+    left: 220px;
+  }
+  .linkedin {
+    width: 50px;
+    left: 220px;
+    top: 65px;
+  }
+  .wsp {
+    width: 50px;
+    left: 285px;
+  }
+
+  .background {
+    margin-left: 0;
+    font-size: 20px;
+    top: 125px;
+  }
+  h2 {
+    font-size: 36px;
+  }  
+  .card {
+    margin-left: 0;
+  }
+  .yo {
+    width: 100px;
+    height: 100px;
+  }
+  .nav {
+    height: 120px;
+  }
+  .icon {
+    font-size: 15px;
+    padding: 10px;
+    left: 130px;
+  }
+  .pro {
+    top: 60px;
+    margin-left: -10px;
+  }
+  .proyectos {
+    margin-left: 10px;
+    width: 300px;
+  }
+}
