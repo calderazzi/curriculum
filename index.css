@@ -1,4 +1,7 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 html {
   width: 99%;
   height: 99%;
@@ -10,7 +13,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  font-size: 16px;
+  font-size: 13px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -80,7 +83,7 @@ h2 span {
   width: 0;
   background: white;
   border-left: 1px solid white;
-  animation: maquina 5s alternate steps(17);
+  animation: maquina 4s alternate steps(17);
 }
 @keyframes maquina {
   from {
@@ -117,27 +120,27 @@ h2 span {
 
 .whatsapp {
   position: absolute;
-  top: 79%;
+  top: 85%;
   left: 49.5%;
   transform: translate(-50%, -50%);
 }
 .wsp {
   position: absolute;
-  top: 630px;
+  top: 500px;
   left: 65px;
-  width: 70px;
+  width: 55px;
 }
 
 .nav {
   background-color: rgb(17, 144, 202);
-  height: 99%;
-  width: 240px;
+  height: 100%;
+  width: 200px;
 }
 
 .yo {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
+  width: 180px;
+  height: 180px;
+  margin: 10px;
   border-radius: 50%;
 }
 
@@ -145,9 +148,9 @@ h2 span {
   text-decoration: none;
   color: white;
   position: absolute;
-  font-size: 35px;
-  top: 300px;
-  left: 60px;
+  font-size: 25px;
+  top: 230px;
+  left: 50px;
   background-color: rgb(129, 173, 177);
   padding: 15px;
   border-radius: 30px;
@@ -156,188 +159,188 @@ h2 span {
   border: 1px solid black ;
 }
 .pro {
-  top: 400px;
-  margin-left: -30px;
+  top: 320px;
+  margin-left: -20px;
 }
 
 .background {
   position: absolute;
-  top: 35px;
-  margin-left: 275px;
+  top: 10px;
+  margin-left: 230px;
   background-color: rgb(57, 91, 99);
   border-radius: 20px;
-  width: 83.5%;
+  width: 75%;
   height: 91%;
   color: white;
-  padding: 20px;
-  font-size: 30px;
+  padding: 20px 50px;
+  font-size: 20px;
   text-align: justify;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .card {
   position: absolute;
-  top: 35px;
-  margin-left: 275px;
+  top: 15px;
+  margin-left: 220px;
   border-radius: 20px;
   background-color: rgb(57, 91, 99);
-  width: 500px;
-  height: 600px;
+  width: 330px;
+  height: 375px;
   text-align: center;
 }
 .img {
   margin: 10px;
-  width: 450px;
-  height: 500px;
+  width: 300px;
+  height: 320px;
   border-radius: 20px;
 }
 .nombre-card {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 .segunda {
-  margin-left: 800px;
+  margin-left: 570px;
 }
 .tercera {
-  margin-left: 1330px;
+  margin-left: 920px;
+}
+.cuarta {
+  margin-top: 400px;
+  margin-left: 220px;
 }
 
 .github {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 500px;
-  left: 10px;
+  width: 70px;
+  top: 400px;
+  left: 15px;
 }
 .linkedin {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 500px;
-  left: 120px;
+  width: 70px;
+  top: 400px;
+  left: 105px;
   border-radius: 22px;
+  background-color: white;
 }
 .proyectos {
   position: absolute;
-  top: 650px;
-  margin-left: 275px;
+  top: 415px;
+  margin-left: 570px;
   border-radius: 20px;
   background-color: rgb(57, 91, 99);
-  width: 500px;
-  padding: 10px;
+  width: 330px;
+  padding: 10px 0px;
   text-align: center;
   color: #FFF;
-  font-size: 25px;
-}
-
-@media (max-width: 1750px) {
-  .tercera {
-    margin-left: 275px;
-    top: 650px;
-  }
-  .background {
-    width: 77%;
-    height: auto;
-  }
-  .proyectos {
-    margin-left: 800px;
-  }
+  font-size: 20px;
 }
 
 @media (max-width: 1340px) {
-  .segunda {
-    margin-left: 275px;
-    top: 1270px;
+  .tercera {
+    margin-left: 570px;
+    top: 415px;
   }
   .background {
-    width: 66%;
-    margin-left: 245px;
+    margin-left: 210px;
+    width: auto;
+    height: auto;
   }
   .proyectos {
-    margin-left: 275px;
-    top: 1900px;
+    margin-left: 230px;
+    top: 800px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 920px) {
   .github {
-    width: 70px;
-    top: 5px;
+    width: 50px;
+    top: 12px;
     left: 310px;
   }
   .linkedin {
-    width: 70px;
-    top: 78px;
+    width: 50px;
+    top: 70px;
     left: 310px;
   }
   .wsp {
-    top: 25px;
+    top: 40px;
     left: 390px;
   }
   .background {
     top: 160px;
     margin-left: 10px;
-    width: 92%;
   }
   .nav {
-    height: 150px;
+    height: 130px;
     width: 100%;
   }
   .yo {
     margin: 10px;
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
   }
   .icon {
     top: 10px;
     left: 180px;
-    font-size: 25px;
+    font-size: 20px;
+    padding: 10px;
   }
   .pro {
-    top: 80px;
+    top: 70px;
     margin-left: -20px;
   }
   .card {
-    width: 350px;
-    height: 450px;
-    top: 170px;
+    margin-top: 140px;
     margin-left: 50px;
   }
-  .img {
-    width: 300px;
-    height: 350px;
-  }
-  .tercera {
-    top: 640px;
-  }
   .segunda {
-    top: 1110px;
+    margin-left: 400px;
+  }
+  .cuarta {
+    margin-top: 540px;
+    margin-left: 400px;
   }
   .proyectos {
-    margin-left: 40px;
-    width: 350px;
-    top: 1600px;
+    top: 950px;
   }
 }
 
-@media (max-width: 500px) {
+
+@media (max-width: 750px) {
+  .segunda {
+    margin-left: 50px;
+    margin-top: 940px;
+  }
+  .cuarta {
+    margin-left: 50px;
+    margin-top: 1340px;
+  }
+  .proyectos {
+    top: 1750px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 475px) {
   .github {
-    width: 50px;
+    width: 40px;
     left: 220px;
   }
   .linkedin {
-    width: 50px;
+    width: 40px;
     left: 220px;
     top: 65px;
   }
   .wsp {
-    width: 50px;
+    width: 40px;
     left: 285px;
   }
 
   .background {
     margin-left: 0;
-    font-size: 20px;
+    font-size: 15px;
+    padding: 20px;
     top: 125px;
   }
   h2 {
@@ -355,15 +358,17 @@ h2 span {
   }
   .icon {
     font-size: 15px;
-    padding: 10px;
     left: 130px;
   }
   .pro {
     top: 60px;
     margin-left: -10px;
   }
-  .proyectos {
+  .card {
     margin-left: 10px;
+  }
+  .proyectos {
+    margin-left: 20px;
     width: 300px;
   }
 }
